@@ -1,8 +1,8 @@
 'use strict';
 
 
-class StringBuilder {#
-    value;
+class StringBuilder {
+    #value;
     constructor(initialValue = "") {
         this.#value = initialValue;
     }
